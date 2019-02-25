@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar{
+      border-bottom: #008ed6 1px solid;
+      opacity: 0.8;
+  }
+  .section-1{
+  padding-top:80px;
+  }
+  #welcome-section{
+      background: url("https://cdn-images-1.medium.com/max/2000/1*jIJwzDv3t26povgiIjAo3Q.jpeg");
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      min-height: 500px;
+  }
+  .tran{
+    opacity:0.9;
+  }
+  
+  #projects a,#contact a,#certifications a{
+    color:black;
+    text-decoration:none;
+  }
+  
+  #contact a:hover{
+    opacity:0.8;
+  }
+  @media (max-width: 768px){
+    h3{
+      font-size:25px;
+    }
+  }
+  
